@@ -28,4 +28,4 @@ Load the timeseries data. They must have the following structure: rows correspon
 Our data are embedded in an array called 'df_array' (see the df_array.csv' file in examples). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 40,000 pixels for the Hanoi Province (Vietnam). 
 Therefore the array has the following dimensions: 40,000 rows x 72 columns.
 The array has been generated from the SBAS technique available in the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.  
-Coordinates for this pixels are saved in the 'coords.csv' file
+Coordinates for this pixels are saved in the 'coords.csv' file and are in the WGS84 system.
