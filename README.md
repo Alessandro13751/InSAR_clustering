@@ -18,3 +18,7 @@ The python script can be divided in three main parts:
 3) Performing a Cluster analysis where the number of clusters is based on the number of components retrieved in (2) with the PCA.
 
 For (3) it is necessary to import the sklearn module. In particular, the 'TimeSeriesKMeans' clustering method has been used.
+
+
+# Installation
+No installation is required and all the used packages are uploaded at the beginning of the code (lines 12-27).
