@@ -27,7 +27,7 @@ The test files used in the script are saved in the 'example' folder and describe
 # 3.Usage
 Define the project directory (line 31)
 Load the timeseries data. They must have the following structure: rows correspond to different measurment points/pixels while column correspond to different dates.
-Our data are embedded in an array called 'df_array' (see the df_array.csv' file inside example). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 40,000 pixels for the Hanoi Province (Vietnam). 
-Therefore the array has the following dimensions: 40,000 rows x 72 columns.
+Our data are embedded in an array called 'df_array' (see the df_array.csv' file inside example). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 25,000 pixels for the Hanoi Province (Vietnam). 
+Therefore the array has the following dimensions: 25,000 rows x 72 columns.
 The array has been generated from the SBAS technique available in the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.  
 Coordinates for this pixels are saved in the 'coords.csv' file inside example and are in the WGS84 system.
