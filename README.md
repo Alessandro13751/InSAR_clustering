@@ -22,5 +22,10 @@ The python script can be divided in three main parts:
 For (3) it is necessary to import the sklearn module. In particular, the 'TimeSeriesKMeans' clustering method has been used.
 
 
-# Installation
+# 1.Installation
 No installation is required and all the used packages are uploaded at the beginning of the code (lines 12-27).
+
+# 2.Usage
+To run the script, first install scikit-learn (see https://scikit-learn.org/stable/install.html).
+Load the timeseries data. They must have the following structure: rows correspond to different measurment points/pixels while column correspond to different dates.
+Our data are embedded in an array called 'df_array' (see the df_array.csv' file in examples)
