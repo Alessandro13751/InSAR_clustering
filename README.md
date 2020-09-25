@@ -1,6 +1,6 @@
 # InSAR_clustering
 InSAR_clustering is an open-source code written in Python that support users in analysing time series of ground deformation.
-I have developed this tool for an easier analysis of InSAR time series and better geological interpretation of the geophysical source of ground deformation.
+I have developed this tool for improving the analysis of InSAR time series results. Grouping the data in few clusters allows an easier interpretation on the geological/geophysical source of ground deformation.
 Usually InSAR results consist in matrix of millions of different targets (namely the radar target/pixel) by hundreds of different time intervals so the manual interpretation of this matrix is unfeasbile if not time consuming.
 
 ![](images/cluster_result.png)
