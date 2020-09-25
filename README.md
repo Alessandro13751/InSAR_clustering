@@ -6,9 +6,7 @@ Usually InSAR results consist in matrix of millions of different targets (namely
 ![](images/cluster_result.png)
 
 The underlying approach of the InSAR_clustering script is described in detail in the following British Geological Survey (BGS) Open Report:
-Novellino, A.; Terrington, R.; Christodoulou, V.; Smith, H.; Bateson, L.. 2019 Ground motion and stratum thickness comparison in Tower Hamlets, London. Nottingham, UK, British Geological Survey, 31pp. (OR/19/043)
-
-The report is available at http://nora.nerc.ac.uk/id/eprint/525619/ 
+Novellino, A.; Terrington, R.; Christodoulou, V.; Smith, H.; Bateson, L.. 2019 Ground motion and stratum thickness comparison in Tower Hamlets, London. Nottingham, UK, British Geological Survey, 31pp. (OR/19/043). http://nora.nerc.ac.uk/id/eprint/525619/ 
 
 The script is currently used for the interpretation of the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.
 
