@@ -21,8 +21,10 @@ For (3) it is necessary to import the sklearn module. In particular, the 'TimeSe
 # 1.Installation
 To run the script, first install scikit-learn (see https://scikit-learn.org/stable/install.html). All the relevant packages are uploaded at the beginning of the code (lines 12-27).
 
+# 2.Input files
+The test files used in the script are saved in the 'example' folder and described in Section 3.
 
-# 2.Usage
+# 3.Usage
 Define the project directory (line 31)
 Load the timeseries data. They must have the following structure: rows correspond to different measurment points/pixels while column correspond to different dates.
 Our data are embedded in an array called 'df_array' (see the df_array.csv' file in examples). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 40,000 pixels for the Hanoi Province (Vietnam). 
