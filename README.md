@@ -8,8 +8,6 @@ Usually InSAR results consist in matrix of millions of different targets (namely
 The underlying approach of the InSAR_clustering script is described in detail in the following British Geological Survey (BGS) Open Report:
 Novellino, A.; Terrington, R.; Christodoulou, V.; Smith, H.; Bateson, L.. 2019 Ground motion and stratum thickness comparison in Tower Hamlets, London. Nottingham, UK, British Geological Survey, 31pp. (OR/19/043). http://nora.nerc.ac.uk/id/eprint/525619/ 
 
-The script is currently used for the interpretation of the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.
-
 
 # Description
 The python script can be divided in three main parts:
@@ -21,9 +19,10 @@ For (3) it is necessary to import the sklearn module. In particular, the 'TimeSe
 
 
 # 1.Installation
-No installation is required and all the used packages are uploaded at the beginning of the code (lines 12-27).
+To run the script, first install scikit-learn (see https://scikit-learn.org/stable/install.html). All the relevant packages are uploaded at the beginning of the code (lines 12-27).
+
 
 # 2.Usage
-To run the script, first install scikit-learn (see https://scikit-learn.org/stable/install.html).
+Define the project directory (line 31)
 Load the timeseries data. They must have the following structure: rows correspond to different measurment points/pixels while column correspond to different dates.
-Our data are embedded in an array called 'df_array' (see the df_array.csv' file in examples)
+Our data are embedded in an array called 'df_array' (see the df_array.csv' file in examples). The dataset used is a small area inside the Hanoi Province (Vietnam) and is the output generated from the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details. 
