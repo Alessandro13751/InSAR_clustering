@@ -27,7 +27,7 @@ The test files used in the script are saved in the 'example' folder and describe
 # 3.Usage
 Define the project directory (line 31)
 Load the timeseries data. They must have the following structure: rows correspond to different measurment points/pixels while column correspond to different dates.
-Our data are embedded in an array called 'df_array' (see the df_array.csv' file inside example). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 25,000 pixels for the Hanoi Province (Vietnam). 
+Our data are embedded in an array called 'df_array' (see the df_array.csv' file inside example). The dataset used represents displacements recorded at 72 different dates between 2016 and 2019 from Sentinel-1 satellite data over a small area including 10,000 pixels taken north of the Hanoi Province (Vietnam). 
 Therefore the array has the following dimensions: 25,000 rows x 72 columns.
 The array has been generated from the SBAS technique available in the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.  
 Coordinates for this pixels are saved in the 'coords.csv' file inside example and are in the WGS84 system. First column is the latitude and the second is the longitude. They will be attached in the output file and used only at the end.
@@ -44,9 +44,12 @@ At this point the scripts can be divided in three parts: PCA analysis (section 3
    
    ![](images/Clusters_%_distribution.png)
    
+   
+   For the 4 main clusters found in this example, we are able to display the median value (red line), the 10th (lower grey line) and 90th (upper grey line) percentile of the displacements timeseries of the pixels according to the cluster they belong to.
    ![](images/Clusters_centre.png)
    
    
    # 3.3 Outputs
-   
-   in the 'outputs' folder: 'df_cluster_displ.csv' and 'df_coords_cluster.csv'
+   Finally, two results are generated, see the 'outputs' (folder of this repository):
+   - 'df_cluster_displ.csv' with the time series of the median value of the dispacement timeseries of each cluster.
+   - 'df_coords_cluster.csv' with the lat/long coordinated and the cluster group which can be diplayed in any GIS program.
