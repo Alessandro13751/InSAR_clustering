@@ -31,3 +31,22 @@ Our data are embedded in an array called 'df_array' (see the df_array.csv' file 
 Therefore the array has the following dimensions: 25,000 rows x 72 columns.
 The array has been generated from the SBAS technique available in the Automatic InSAR Processor developed by the Earth Observation team in BGS. For more information on this, do please ask E.Hussain (ekhuss@bgs.ac.uk) or myself (alessn@bgs.ac.uk) for more details.  
 Coordinates for this pixels are saved in the 'coords.csv' file inside example and are in the WGS84 system. First column is the latitude and the second is the longitude. They will be attached in the output file and used only at the end.
+At this point the scripts can be divided in three parts: PCA analysis (section 3.1), cluster analysis (Section 3.2) and export of the outputs (Section 3.3)
+
+   # 3.1 PCA
+   This part is needed to understand how many components contribute to the variance of the timeseries. It is therefore a temporally organised PCA to find uncorrelated time courses where each pixel is a variable and each interferogram represent a dimension. The output will let us understand how many component contributes to 90% of the variance in the timeseries. This number will be used as input for defining the number of clusters in the cluster analysis (Section 3.2).
+   
+   ![](images/PCA_eigenvectors.png)
+   
+   
+   # 3.2 Cluster Analysis
+   This part is needed to understand how many components contribute to the variance of the timeseries. It is therefore a temporally organised PCA to find uncorrelated time courses where each pixel is a variable and each interferogram represent a dimension. The output will let us understand how many component contributes to 90% of the variance in the timeseries. This number will be used as input for defining the number of clusters in the cluster analysis (Section 3.2).
+   
+   ![](images/Clusters_%_distribution.png)
+   
+   ![](images/Clusters_centre.png)
+   
+   
+   # 3.3 Outputs
+   
+   in the 'outputs' folder: 'df_cluster_displ.csv' and 'df_coords_cluster.csv'
