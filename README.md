@@ -40,7 +40,8 @@ At this point the scripts can be divided in three parts: PCA analysis (section 3
    
    
    # 3.2 Cluster Analysis
-   This part is needed to understand how many components contribute to the variance of the timeseries. It is therefore a temporally organised PCA to find uncorrelated time courses where each pixel is a variable and each interferogram represent a dimension. The output will let us understand how many component contributes to 90% of the variance in the timeseries. This number will be used as input for defining the number of clusters in the cluster analysis (Section 3.2).
+   Based on the numbers of components found with the PCA, we are now able to run an unsupervised cluster analysis using the number defined in Section 3.1
+   
    ![](images/Clusters_%_distribution.png)
    
    
