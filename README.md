@@ -41,6 +41,7 @@ At this point the scripts can be divided in three parts: PCA analysis (section 3
    
    # 3.2 Cluster Analysis
    Based on the numbers of components found with the PCA, we are now able to run an unsupervised cluster analysis using the number defined in Section 3.1    
+   
    ![](images/Clusters_%_distribution.png)
    
    
