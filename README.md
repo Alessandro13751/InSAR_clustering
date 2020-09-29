@@ -52,3 +52,8 @@ At this point the scripts can be divided in three parts: PCA analysis (section 3
    Finally, two results are generated, see the 'outputs' (folder of this repository):
    - 'df_cluster_displ.csv' with the time series of the median value of the dispacement timeseries of each cluster.
    - 'df_coords_cluster.csv' with the lat/long coordinated and the cluster group which can be diplayed in any GIS program.
+   
+   
+# 4.Acknowledgement
+There is no restriction about the research/commercial/scientific use of this script. However, we would like you to acknowledge the following work:
+Novellino, A.; Terrington, R.; Christodoulou, V.; Smith, H.; Bateson, L.. 2019 Ground motion and stratum thickness comparison in Tower Hamlets, London. Nottingham, UK, British Geological Survey, 31pp. (OR/19/043). http://nora.nerc.ac.uk/id/eprint/525619/ 
